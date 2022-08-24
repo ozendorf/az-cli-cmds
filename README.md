@@ -1,5 +1,5 @@
 # az-cli-cmds
-Cheat sheet of useful commands
+## Cheat sheet of useful commands
 
 List role assignment for a subscription
 
