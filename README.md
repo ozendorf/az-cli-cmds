@@ -13,5 +13,6 @@ List actions done on a subscription based on Activity Logs for the last 300 days
 
 `az monitor activity-log list --output json --query '[].authorization.action' --start-time 2022-08-24 --offset 300d`
 
-List group membership for a user 
+List group membership for a user
+
 `az ad user get-member-groups --id`
