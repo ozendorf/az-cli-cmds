@@ -16,3 +16,7 @@ List actions done on a subscription based on Activity Logs for the last 300 days
 List group membership for a user
 
 `az ad user get-member-groups --id`
+
+List in an exhaustive manner user assignments in a sub 
+
+`az role assignment list --subscription 'SUB_ID' --assignee USER --include-groups --output json --all`
