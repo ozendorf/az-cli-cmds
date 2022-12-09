@@ -20,3 +20,7 @@ List group membership for a user
 List in an exhaustive manner user assignments in a sub 
 
 `az role assignment list --subscription 'SUB_ID' --assignee USER --include-groups --output json --all`
+
+Create a service principal and configure its access to Azure resources
+
+`az ad sp create-for-rbac`
